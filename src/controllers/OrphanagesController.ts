@@ -59,7 +59,8 @@ export default {
             about,
             instructions,
             opening_hours,
-            open_on_weekends,
+            open_on_weekends: open_on_weekends==='true', //se variável é igual à string 'true'
+            //...retornará um boolean, e não uma string, como tava acontecendo.
             images
         }
 
